@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hanging gardens</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="description" content="No Hanging Gardens você encontrará os melhores exemplares de plantas medicinais, ornamentais,
+    e frutíferas. Além dos melhores preços do mercado">
+</head>
+<body>
+    <!-- PRINCIPAL (700XP)
+- Fazer um cardápio/catálogo digital;
+- A página deve possuir um título e uma descrição explicando do que se trata;
+- Todo produto deste cardápio/catálogo deve possuir uma imagem, um nome e uma descrição;
+- É necessário ter um header e footer com navegação;
+- Deve existir uma tabela de preços (ou com qualquer outra função) na página;
+- Deve possuir um formulário para cadastro.
+- Tema livre (filmes, )
+
+EXTRA (200XP)
+- A página deve ser otimizada para SEO e acessibilidade;
+- A página deve possuir alguma estilização! (editado)
+
+5
+
+2
+
+1
+
+1
+28 de janeiro de 2022
+ -->
+ 
+<header>
+    <form>
+        <div class="barra-pesquisa">
+            <label for="pesquisa"> <img src="imagens/lupa.png" alt="lupa de pesquisa"></label>
+            <input id="pesquisa" name="pesquisa" placeholder="Pesquisa" type="search" class="search">
+        </div>
+    </form>
+    
+    <h1>Hanging Gardens</h1>
+    
+
+
+</header>
+<nav class="home-page">
+    <div class="home-page">
+        <a href="#">Home</a>
+        <a href="#plantas">Plantas</a>
+        <a href="#cadastro">Cadastro</a>
+        <a href="#contato">Quem somos</a>
+        <a href="#contato">Contato</a>
+    </div>
+</nav>
+
+<main>
+  
+     <section class="catalogo" id="plantas">
+        <h2 class="classificacoes">Medicinais</h2>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="imagens/alecrim.jpg" alt="Alecrim em vaso, fundo branco" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                
+                <h2 class="plantas">Alecrim</h2>
+                <p class="plantas">(Salvia rosmarinus)</p>
+                <p class="plantas">O alecrim é uma erva aromática comum na região do Mediterrâneo 
+                  ocorrendo preferencialmente em solos 
+                  de origem calcária.Devido à sua atratividade estética e razoável tolerância à seca, é 
+                  utilizado em arquitectura paisagista, especialmente em áreas com clima mediterrânico. 
+                  É considerada fácil de cultivar para jardineiros principiantes, tendo uma boa tolerância 
+                  a Pragas.</p>
+
+                
+                
+                
+              </div>
+            </div>
+          </div> 
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="imagens/aloe-vera.jpg" alt="Aloe Vera em vaso, fundo branco" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+              
+                <h2 class="plantas">Aloe vera</h2>
+                <p class="plantas">(Aloe vera)</p>
+                <p class="plantas">Aloe vera, também conhecida por babosa, é uma espécie de planta 
+                  suculenta do gênero Aloe. Cresce selvagem em climas tropicais ao redor do mundo e é
+                   cultivada para usos agrícolas e medicinais. Também é usada para fins decorativos e 
+                   cresce com sucesso dentro de casa como uma planta em vaso.</p>
+                
+                
+              </div>
+            </div>
+          </div> 
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="imagens/boldo.jpg" alt="Boldo-do-chile em vaso, fundo branco" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                
+                <h2 class="plantas">Boldo-do-chile</h2>
+                <p class="plantas">(Peumus boldus)</p>
+                <p class="plantas">O boldo-do-chile é uma árvore que atinge de 12 a 15 metros de altura 
+                  e pertence à família das Monimiaceae. É comumente confundido com o boldo-da-terra, arbusto 
+                  de propriedades medicinais semelhantes, mas com contra-indicações diferentes.</p>
+                
+                
+              </div>
+            </div>
+          </div> 
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="imagens/ora-pro-nobis.jpg" alt="Ora-pro-nóbis em vaso, fundo branco" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                
+                <h2 class="plantas">Ora-pro-nóbis</h2>
+                <p class="plantas">(Pereskia aculeata)</p>
+                <p class="plantas"> Popularmente conhecida como ora-pro-nóbis, orabrobó, lobrobó ou lobrobô, 
+                  é uma cactácea trepadeira folhosa. É uma planta bastante rara, rústica, perene, 
+                  desenvolvendo-se bem em vários tipos de solo, tanto à sombra como ao sol.</p>
+                
+                
+              </div>
+            </div>
+          </div> 
+          <h2 class="classificacoes">Ornamentais</h2>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="imagens/begonia.jpg" alt="Begônia em vaso, fundo branco" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                
+                <h2 class="plantas">Begônia</h2>
+                <p class="plantas">(Begonia)</p>
+                <p class="plantas">As begónias provêm principalmente da América tropical, de florestas
+                   úmidas ou nichos de umidade das savanas, com muitas espécies epífitas ou rupícolas, 
+                   embora a maioria seja terrestre. São, de maneira geral, plantas 
+                   ornamentais de folhagem característica, e ocasionalmente flores atraentes </p>
+                
+                
+              </div>
+            </div>
+          </div> 
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="imagens/espad-de-sao-jorge.jpg" alt="Espada-de-são-jorge em vaso, fundo branco" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+               
+                <h2 class="plantas">Espada-de-são-jorge</h2>
+                <p class="plantas">(Dracaena trifasciata)</p>
+                <p class="plantas">A espada-de-são-jorge, espada-de-santa-bárbara ou espada-de-Iansã, 
+                  também conhecida como língua-de-sogra, rabo-de-lagarto e sanseviéria, é uma planta herbácea 
+                  de origem africana. Também é importante saber que é uma planta tóxica, e que não deve ser 
+                  ingerida.</p>
+                
+                
+              </div>
+            </div>
+          </div> 
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="imagens/cheflera.jpg" alt="Cheflera em vaso, fundo branco" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                
+                <h2 class="plantas">Cheflera</h2>
+                <p class="plantas">(Schefflera arboricola)</p>
+                <p class="plantas">É uma planta perene que cresce até 9 metros de altura, independente ou 
+                  epífita de outras árvores. As folhas são persistentes, verdes brilhantes e palmatamente 
+                  compostas.
+                  É comumente cultivada para decorar ambientes de casas e escritórios, popular por 
+                  sua tolerância a condições negligentes e que prejudicam seu crescimento.</p>
+                
+                
+              </div>
+            </div>
+          </div> 
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="imagens/zamioculca.jpg" alt="Zamioculcas em vaso, fundo branco" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                
+                <h2 class="plantas">Zamioculcas</h2>
+                <p class="plantas">(Zamioculcas)</p>
+                <p class="plantas">A Zamioculcas zamiifolia, da família das Aráceas (popularmente conhecida 
+                  de Zamioculcas ou ZZ) é uma planta originária da Tanzânia, na África. Ela se adapta bem a 
+                  ambientes internos, de pouca luz, sendo resistente e durável. Também é pouco exigente com 
+                  as regas.</p>
+                
+                
+              </div>
+            </div>
+          </div> 
+          <h2 class="classificacoes">Frutíferas</h2>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="imagens/tomateira.jpg" alt="Tomateiro em vaso, fundo branco" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+               
+                <h2 class="plantas">Tomateiro</h2>
+                <p class="plantas">(Solanum lycopersicum)</p>
+                <p class="plantas">O tomateiro , planta cujo fruto é o tomate, 
+                  é originário da região dos Andes (do norte do Chile até a Colômbia), embora tenha sido 
+                  cultivado inicialmente na região do México.Nas regiões do Brasil com clima ameno, o 
+                  tomateiro pode ser cultivado durante o ano todo. Temperaturas extremas (calor em excesso ou 
+                  geada) prejudicam o desenvolvimento da planta.</p>
+                
+                
+              </div>
+            </div>
+          </div> 
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="imagens/pimenta.jpg" alt="Pimenta em vaso, fundo branco" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                
+                <h2 class="plantas">Pé de pimenta</h2>
+                <p class="plantas">(Capsicum baccatum)</p>
+                <p class="plantas">Capsicum baccatum é o nome científico de uma pimenta conhecida como 
+                  pimenta dedo-de-moça ou pimenta-aji, originária do Peru, da qual existem diversas variedades.
+                  No Brasil, são conhecidas, sobretudo, três variedades desta espécie: pimenta dedo-de-moça 
+                  , pimenta-cumari e cambuci</p>
+                
+                
+              </div>
+            </div>
+          </div> 
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="imagens/pimentao.png" alt="Pimentão em vaso, fundo branco" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                
+                <h2 class="plantas">Pimentão</h2>
+                <p class="plantas">(Capsicum annuum)</p>
+                <p class="plantas">Pimentão (português brasileiro) ou pimento (português europeu) refere-se 
+                  a um grupo de cultivares da espécie Capsicum annuum, muito utilizado na culinária de todo 
+                  o mundo. Os vários cultivares produzem frutos com diferentes cores sendo as mais conhecidas 
+                  o verde, o amarelo e o vermelho.São plantas nativas do México, América Central e do norte 
+                  da América do Sul. </p>
+                
+                
+              </div>
+            </div>
+          </div> 
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="imagens/morango.jpg" alt="Pé de morango em vaso, fundo branco" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                
+                <h2 class="plantas">Morangueiro</h2>
+                <p class="plantas">(Fragaria)</p>
+                <p class="plantas">Morangueiro é o nome comum de um conjunto de espécies, com seus híbridos 
+                  e cultivares, do género Fragaria L., que produz o morango, incluindo um conjunto alargado 
+                  de espécies e variedades silvestres.
+                  É um pseudofruto, pois na verdade, o verdadeiro fruto são os "pontos pretos" ao 
+                  redor do morango, porém, todo o receptáculo do morango se torna carnoso e suculento.</p>
+                
+                
+              </div>
+            </div>
+          </div> 
+          <h2 class="classificacoes">Flores</h2>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="imagens/cinerari-flor.jpg" alt="Cinerária em vaso, fundo branco" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                
+                <h2 class="plantas">Cinerária</h2>
+                <p class="plantas">(Senecio cruentus)</p>
+                <p class="plantas">Cinerária é o nome de uma planta herbácea perene que tem origem 
+                  nas ilhas Canárias, na África.A cinerária é considerada uma planta de pequeno porte, 
+                  geralmente com uma altura que varia de 20 a 40 centímetros. A cinerária é uma planta que 
+                  aprecia os climas subtropical e temperado, ou seja, ela não tolera nem geadas e muito 
+                  menos calor excessivo. </p>
+                
+                
+              </div>
+            </div>
+          </div> 
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="imagens/dalia-flro.jpg" alt="Dália em vaso, fundo branco" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                
+                <h2 class="plantas">Dália</h2>
+                <p class="plantas">(Dahlia)</p>
+                <p class="plantas">Dahlia, nome comum dália, é um género botânico pertencente à família 
+                  Asteraceae. É uma herbácea de porte médio, perene. Quando adulta, a planta chega a atingir 
+                  até 1,50 metro. É originária do México, onde é muito popular.</p>
+                
+                
+              </div>
+            </div>
+          </div> 
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="imagens/hibisco-flor.jpg" alt="Hibisco em vaso, fundo branco" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                
+                <h2 class="plantas">Hibisco</h2>
+                <p class="plantas">(Hibiscus)</p>
+                <p class="plantas">O hibisco é uma planta ornamental muito popular no território brasileiro. 
+                 Além de bela, sua flor é extremamente útil para uma vida saudável e 
+                  equilibrada. O seu porte varia bastante entre as espécies, podendo ter estrutura arbórea 
+                  ou arbustiva. Tem origem asiática e popularizou-se ao redor do mundo graças à sua 
+                  adaptabilidade e resistência.</p>
+                
+                
+              </div>
+            </div>
+          </div> 
+          
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="imagens/peonia-flor.jpg" alt="Peônia em vaso, fundo branco" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                
+                <h2 class="plantas"><strong>Peônia</strong></h2>
+                <p class="plantas">(Paeonia)</p>
+                <p class="plantas">Peónias ou Peônias são plantas com flor no género Paeonia, o único da 
+                  família Paeoniaceae. O género tem ampla distribuição natural nas regiões temperadas do 
+                  Hemisfério Norte, estando presente na Eurásia, Norte de África e oeste da América do Norte.
+                  São maioritariamente plantas herbáceas, perenes, com 0,5 a 1,5 m de altura, mas algumas 
+                  são arbustivas, com 1,5 a 3 m de altura.
+                </p>
+                
+                
+              </div>
+            </div>
+          </div> 
+        </section>
+     </section>
+     <section class="formulario-cadastro" id="cadastro">
+         <h3>Cadastre-se para receber novidades</h3>
+        <form class="formulario-cadastro">
+                <div class="formulario-cadastro">
+                    <label for="nome">Nome:</label>
+                    <input id="nome" name="nome" placeholder="Digite o seu nome de usuário" type="text">
+                </div>
+                <div class="formulario-cadastro">
+                    <label for="email">E-mail:</label>
+                    <input id="email" name="email" placeholder="Digite o seu e-mail" type="email">
+                </div>
+               
+                <div class="senha">
+                    <label for="senha">Senha:</label>
+                    <input id="senha" name="senha" type="password" placeholder="Digite sua senha">
+                    
+                </div>
+                <div class="formulario-cadastro">
+                    <input id="termos" name="termos" type="checkbox" required >
+                    <label for="termos">Aceite os termos</label>
+                </div>
+                <button type="submit" class="formulario">Cadastrar</button>
+        </form>
+    </section>
+     <section class="tabela">
+        <table class="tabela">
+            <thead>
+                <tr>
+                    <th class= "center-text"colspan="2">Tabela de Preços</th>
+                </tr>
+                <tr>
+                    <th>Nome</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alecrim</td>
+                    <td>R$ 28,99</td>
+                    <tr>
+                        <td>Aloe Vera</td>
+                        <td>R$ 75,00</td>
+                    </tr>
+                    <tr>
+                        <td>Boldo</td>
+                        <td>R$ 11,90</td>
+                    </tr>
+                    <tr>
+                        <td>Ora-pró-nobis</td>
+                        <td>R$ 15,00</td>
+                    </tr>
+                    <tr>
+                        <td>Begônia</td>
+                        <td>R$ 60,00</td>
+                    </tr>
+                    <tr>
+                        <td>Espada de São Jorge</td>
+                        <td>R$ 45,00</td>
+                    </tr>
+                    <tr>
+                        <td>Cheflera</td>
+                        <td>R$ 31,18</td>
+                    </tr>
+                    <tr>
+                        <td>Zamioculca</td>
+                        <td>R$ 22,90</td>
+                    </tr>
+                    <tr>
+                        <td>Tomateira</td>
+                        <td>R$ 29,90</td>
+                    </tr>
+                    <tr>
+                        <td>Pimenta dedo-de-moça</td>
+                        <td>R$ 15,00</td>
+                    </tr>
+                    <tr>
+                        <td>Pé de pimentão</td>
+                        <td>R$ 18,00</td>
+                    </tr>
+                    <tr>
+                        <td>Pé de morango</td>
+                        <td>R$ 14,50</td>
+                    </tr>
+                    <tr>
+                        <td>Cineraria</td>
+                        <td>R$ 12,90</td>
+                    </tr>
+                    <tr>
+                        <td>Dália</td>
+                        <td>R$ 25,81</td>
+                    </tr>
+                    <tr>
+                        <td>Flor de hibisco</td>
+                        <td>R$ 18,99</td>
+                    </tr>
+                    <tr>
+                        <td>Peônia</td>
+                        <td>R$ 79,90</td>
+                    </tr>
+                  </tr>
+        </tbody>
+        </table> 
+    </section>
+</main>
+<footer>
+    <nav>
+        <div class="redes" id="contato">
+          <h4>Nossas Redes</h4>
+          <a href="#"><img src="imagens/facebook-logo.png" alt="logo do facebook"></a>
+          <a href="#"><img src="imagens/instagram-logo.png" alt="logo do instagram"></a>
+          <a href="#"><img src="imagens/whatsapp-logo.png" alt="logo do whatsapp"></a>
+        </div>
+    </nav>
+
+</footer>
+</body>
+</html>
