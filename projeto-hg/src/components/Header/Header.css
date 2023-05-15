@@ -1,0 +1,62 @@
+header{
+    font-family: var(--fonte-header);
+    background-image: url('../../../public/images/background-flower.jpg');
+    background-position: right center;
+    background-color: #f3ece8;    
+    padding: 10px 10px 30px 10px;
+    margin: 10px -10px -10px -10px;
+    width: 100%;
+    
+}
+header > h1{
+    text-align: center;
+    padding: 50px 10px 10px 10px;
+    font-size: 3.6em;
+}
+div.barra-pesquisa{
+    background-color: var(--cor4);
+    margin: -21px -10px 15px -11px;
+    padding: 10px 10px 10px 10px;
+    text-align: right;
+    width: 100%;
+
+}
+
+nav.home-page{
+    background-color: #1e3f2996;
+    margin: 10px -10px 10px -10px;
+    padding: 10px 10px 20px 10px;
+    background-position: center center;
+}
+
+div.home-page  a{
+    text-decoration: none;
+    border-radius: 3px;
+    color: var(--cor4);
+    padding: 10px 10px 10px 10px;
+    font: normal bold 1.1em var(--fonte-padrao);
+    margin: 5px 20px 5px 20px;
+    transition-duration: 0.3s;
+    
+}
+
+nav.home-page a:hover{
+    
+    background-color: var(--cor1);
+    color: var(--cor4);
+}
+div{
+    text-align: center;
+}
+.search{
+    width: 150px;
+    background: white;
+    border-radius: 17px;
+    margin: 6px 9px 19px -3px;
+    padding: 0px 26px 3px 4px;
+    color: rgb(39, 34, 34);
+    border-width: 1px;
+    border-style: groove;
+
+    
+}
