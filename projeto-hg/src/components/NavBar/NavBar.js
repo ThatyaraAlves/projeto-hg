@@ -1,17 +1,16 @@
 import './NavBar.css'
 
 
-const NavBar = () => {
+export const NavBar = (props) => {
     return (
     <nav className="home-page">
     <div className="home-page">
-        <a href="#">Home</a>
-        <a href="#plantas">Plantas</a>
-        <a href="#cadastro">Cadastro</a>
-        <a href="#contato">Quem somos</a>
-        <a href="#contato">Contato</a>
+    <a href="#">{props.homeText}</a>
+        <a href="#plantas">{props.plantasText}</a>
+        <a href="#cadastro">{props.cadastroText}</a>
+        <a href="#quemsomos">{props.quemSomosText}</a>
+        <a href="#contato">{props.contatoText}</a>
     </div>
 </nav>)
 }
 
-export default NavBar

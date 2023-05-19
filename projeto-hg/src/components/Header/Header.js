@@ -1,6 +1,6 @@
 import './Header.css'
 
-function Header() {
+export const Header = () => {
     return (
         <>
             <header>
@@ -16,4 +16,4 @@ function Header() {
     )
 };
 
-export default Header;
+//export default Header;
